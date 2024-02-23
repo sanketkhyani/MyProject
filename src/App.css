@@ -1,20 +1,44 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  margin-right: -50px;
+}
+.App-logo1 {
+  height: 10vmin;
+  pointer-events: none;
+  margin-left: -100px;
+  margin-top: -50px;
+}
+.App-logo2 {
+  height: 10vmin;
+  pointer-events: none;
+  margin-right: 100px;
+}
+.App-logo3 {
+  height: 10vmin;
+  pointer-events: none;
+  margin-right: -50px;
+  margin-top: -50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .App-logo1 {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .App-logo2 {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ff0000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +49,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgb(212, 251, 97);
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +59,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body{
+  position: relative;
+  background-color:#1D2B53;
+  background-image: linear-gradient(#1D2B53,#7E2553,#FF004D,#FAEF5D);
+    /* background-image: url(https://images.unsplash.com/photo-1707343848655-a196bfe88861?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  
+}
+h1{
+  display: flex;
+  padding-top: 100px;
+  color: #060000;
+margin-left: 250px;
+  text-align: center;
+  font-weight: 900;
+}
+h2{
+  text-align: center;
+  color: #fff;
+  font-size: medium;
+  margin-top: -10px;
+}
+.name{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+
+  background-image: linear-gradient(#1D2B53,#7E2553,#FF004D,#FAEF5D);
+    /* background-image: url(https://images.unsplash.com/photo-1682687982141-0143020ed57a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMDV8fHxlbnwwfHx8fHw%3D); */
+    background-position: center;
+
+    width: 50%;
+  height: 450px;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 300px;
+  
+  
+  
 }
